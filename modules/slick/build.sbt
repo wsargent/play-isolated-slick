@@ -1,6 +1,8 @@
 import slick.codegen.SourceCodeGenerator
 import slick.{ model => m }
 
+scalaVersion := "2.11.8"
+
 libraryDependencies ++= Seq(
   "com.zaxxer" % "HikariCP" % "2.4.1",
   "com.typesafe.slick" %% "slick" % "3.1.1",

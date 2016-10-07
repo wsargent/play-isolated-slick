@@ -1,4 +1,4 @@
-
+scalaVersion := "2.11.8"
 
 // Database Migrations:
 // run with "sbt flywayMigrate"
